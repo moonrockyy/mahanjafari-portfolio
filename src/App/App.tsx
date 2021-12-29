@@ -1,11 +1,11 @@
 import React from "react";
-import HomePage from "../Screens/HomePage";
+import Home from "../Screens/Home";
 import "./App.scss";
 
 const App = () => {
   return (
     <>
-      <HomePage />
+      <Home />
     </>
   );
 };
