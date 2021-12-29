@@ -3,3 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: Teko;
+  src: url("./Assets/Fonts/Teko-Regular.ttf");
+}
+
+
+body {
+  background: #F1FAEE;
+  font-family: Teko !important;
+}

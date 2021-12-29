@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import Home from "../Screens/Home";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "./App.scss";
 
 const App = () => {
   useEffect(() => {
