@@ -1,8 +1,12 @@
+import Header from "../Components/Header/Header";
+import Intro from "../Components/Intro/Intro";
+
 const Home = () => {
   return (
     <div className="container">
       <div className="row">
-        <h1>Home Page</h1>
+        <Header />
+        <Intro />
       </div>
     </div>
   );

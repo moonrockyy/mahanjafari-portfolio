@@ -1,0 +1,16 @@
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  color: #e07a5f;
+}
