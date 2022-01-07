@@ -1,10 +1,11 @@
 import IntroImage from "./IntroImage/IntroImage";
 import IntroDesc from "./IntroDesc/IntroDesc";
 import CvButton from "./CvButton/CvButton";
+import styles from "./Intro.module.scss";
 
 const Intro = () => {
   return (
-    <main className="mt-3">
+    <main className={styles.intro}>
       <div className="row">
         <div className="col-6 mt-2">
           <IntroDesc />
