@@ -2,16 +2,43 @@
   position: relative;
   left: 80px;
   top: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.tel:hover {
+  background: #e07a5f;
 }
 
 .insta {
   position: relative;
   right: 10px;
   top: 3px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.insta:hover {
+  background: #e07a5f;
 }
 
 .git {
   position: relative;
   left: 35px;
   top: 3px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.git:hover {
+  background: #e07a5f;
+}
+
+.linkedin {
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.linkedin:hover {
+  background: #e07a5f;
 }

@@ -11,7 +11,7 @@ const AboutSocial = () => {
       <section className="col-6 d-flex flex-column align-items-center">
         <div className="row">
           <div className="col-3">
-            <img src={linkedin} alt="linkedin" />
+            <img src={linkedin} alt="linkedin" className={styles.linkedin} />
           </div>
           <div className="col-6"></div>
           <div className="col-3">
@@ -26,11 +26,11 @@ const AboutSocial = () => {
         </div>
         <div className="row">
           <div className="col-3">
-            <img src={instagram} alt="instagram" className={styles.insta}/>
+            <img src={instagram} alt="instagram" className={styles.insta} />
           </div>
           <div className="col-6"></div>
           <div className="col-3">
-            <img src={github} alt="github" className={styles.git}/>
+            <img src={github} alt="github" className={styles.git} />
           </div>
         </div>
       </section>
