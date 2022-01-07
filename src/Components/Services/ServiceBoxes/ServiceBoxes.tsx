@@ -17,6 +17,8 @@ const Charts = () => {
     { name: "Wordpress", des: "An affordable way to develop your product" },
   ]);
 
+  console.log(state);
+
   return (
     <div className="container">
       <div className="row">
