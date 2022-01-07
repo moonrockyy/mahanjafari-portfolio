@@ -7,7 +7,7 @@ const SectionTitle = styled.h3`
   padding: 10px;
   border-radius: 8px;
   margin: 30px 0 0 60px;
-  color: #f1faee;
+  color: ${(props: { color: "string" }) => props.color};
   display: flex;
   justify-content: center;
   cursor: default;

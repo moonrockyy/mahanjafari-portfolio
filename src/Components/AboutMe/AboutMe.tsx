@@ -6,7 +6,7 @@ import styles from "./AboutMe.module.scss";
 const AboutMe = () => {
   return (
     <div className={`d-flex flex-column ${styles.about}`}>
-      <SectionTitle>ABOUT ME</SectionTitle>
+      <SectionTitle color="#f1faee">ABOUT ME</SectionTitle>
       <article className="row m-5">
         <AboutDesc />
         <AboutSocial />
