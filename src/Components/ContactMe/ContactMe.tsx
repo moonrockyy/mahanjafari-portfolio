@@ -1,12 +1,20 @@
 import SectionTitle from "../SectionTitle/SectionTitle";
-import ContactMeContent from "./ContactMeContent/ContactMeContent";
+import ContactAddresses from "./ContactAddresses/ContactAddresses";
+import ContactIcons from "./ContactIcons/ContactIcons";
+import ContactTitle from "./ContactTitle/ContactTitle";
 
 const ContactMe = () => {
   return (
     <div className={`d-flex flex-column`}>
       <SectionTitle color="#003049">CONTACT ME</SectionTitle>
-      <article className="row m-5">
-        <ContactMeContent />
+      <article className="row mt-2">
+        <div className="container">
+          <section className="row">
+            <ContactTitle />
+            <ContactAddresses />
+            <ContactIcons />
+          </section>
+        </div>
       </article>
     </div>
   );
