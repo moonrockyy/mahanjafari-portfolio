@@ -24,8 +24,9 @@ const Charts = () => {
   return (
     <div className="container">
       <div className="row">
-        {state.map((st) => (
-          <div
+        {state.map((st, index) => (
+          <section
+            key={index}
             className={`col-3 d-flex justify-content-center ${styles.margin}`}
           >
             <div style={{ width: 150, height: 150 }}>
@@ -40,7 +41,7 @@ const Charts = () => {
               />
               <p className={`${styles.chart} fw-bold`}>{st.name}</p>
             </div>
-          </div>
+          </section>
         ))}
       </div>
     </div>
