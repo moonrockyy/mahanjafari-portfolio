@@ -1,7 +1,7 @@
 import SectionTitle from "../SectionTitle/SectionTitle";
 import Charts from "./Charts/Charts";
 
-const AboutMe = () => {
+const Skills = () => {
   return (
     <div className={`d-flex flex-column`}>
       <SectionTitle color="#003049">SKILLS</SectionTitle>
@@ -12,4 +12,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default Skills;

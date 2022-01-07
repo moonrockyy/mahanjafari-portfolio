@@ -31,20 +31,19 @@ const Charts = () => {
     },
   ]);
 
-  console.log(state);
-
   return (
     <div className="container">
       <div className="row">
-        {state.map((st) => (
-          <section className="col-4 d-flex flex-column align-items-center">
+        {state.map((st, index) => (
+          <section
+            key={index}
+            className="col-4 d-flex flex-column align-items-center"
+          >
             <div
               className={`d-flex flex-column justify-content-center align-items-center ${styles.white}`}
             >
               <img src={st.icon} alt={st.name} />
-              <h4 className={`text-center mt-4 fw-bold h3`}>
-                {st.name}
-              </h4>
+              <h4 className={`text-center mt-4 fw-bold h3`}>{st.name}</h4>
             </div>
 
             <div className={`${styles.des} d-flex align-items-center`}>
