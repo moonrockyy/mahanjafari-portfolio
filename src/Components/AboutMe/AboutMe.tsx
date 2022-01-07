@@ -1,10 +1,16 @@
 import SectionTitle from "./../SectionTitle/SectionTitle";
+import AboutDesc from "./AboutDesc/AboutDesc";
+import AboutSocial from "./AboutSocial/AboutSocial";
 import styles from "./AboutMe.module.scss";
 
 const AboutMe = () => {
   return (
-    <div className={`${styles.about}`}>
-      <SectionTitle color="#F1FAEE">AboutMe</SectionTitle>
+    <div className={`d-flex flex-column ${styles.about}`}>
+      <SectionTitle>ABOUT ME</SectionTitle>
+      <article className="row m-5">
+        <AboutDesc />
+        <AboutSocial />
+      </article>
     </div>
   );
 };
