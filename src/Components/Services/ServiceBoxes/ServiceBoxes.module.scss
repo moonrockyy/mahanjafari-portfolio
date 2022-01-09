@@ -20,3 +20,9 @@
   background: #e07a5f;
   cursor: default;
 }
+
+@media screen and (max-width: 991px) {
+  .box {
+    margin-left: 20px !important;
+  }
+}
