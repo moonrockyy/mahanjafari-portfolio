@@ -8,7 +8,9 @@ import styles from "./AboutSocial.module.scss";
 const AboutSocial = () => {
   return (
     <>
-      <section className="col-12 col-md-6 d-flex flex-column align-items-center">
+      <section
+        className={`${styles.socials} col-10 col-md-6 d-flex flex-column align-items-center`}
+      >
         <div className="row">
           <div className="col-3">
             <a
@@ -38,7 +40,11 @@ const AboutSocial = () => {
           </div>
           <div className="col-6"></div>
           <div className="col-3">
-            <a target="_blank" href="https://github.com/moonergeek" rel="noreferrer">
+            <a
+              target="_blank"
+              href="https://github.com/moonergeek"
+              rel="noreferrer"
+            >
               <img src={github} alt="github" className={styles.git} />
             </a>
           </div>

@@ -11,6 +11,10 @@ const SectionTitle = styled.h3`
   display: flex;
   justify-content: center;
   cursor: default;
+
+  @media (max-width: 768px) {
+    margin: 40px auto 0;
+  }
 `;
 
 export default SectionTitle;

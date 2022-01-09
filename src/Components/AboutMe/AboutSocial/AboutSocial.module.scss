@@ -42,3 +42,9 @@
 .linkedin:hover {
   background: #e07a5f;
 }
+
+@media only screen and (max-width: 767px) {
+  .socials {
+    margin-top: 40px !important;
+  }
+}

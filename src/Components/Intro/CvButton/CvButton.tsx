@@ -13,6 +13,11 @@ const CvButton = styled.button`
   &:hover {
     border-radius: 4px;
   }
+
+  @media (max-width: 991px) {
+    margin: 20px auto 0;
+    display: block;
+  }
 `;
 
 export default CvButton;

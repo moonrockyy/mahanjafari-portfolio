@@ -7,12 +7,12 @@ const Intro = () => {
   return (
     <main className={styles.intro}>
       <div className="row">
-        <div className="col-12 col-md-6 mt-2">
+        <div className="order-1 order-lg-0 col-12 col-lg-6 mt-2">
           <IntroDesc />
           <CvButton>DOWNLOAD CV</CvButton>
         </div>
 
-        <div className="col-12 col-md-6">
+        <div className="order-0 order-lg-1 col-12 col-lg-6">
           <IntroImage />
         </div>
       </div>
