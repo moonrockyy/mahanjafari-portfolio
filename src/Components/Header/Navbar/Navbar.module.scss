@@ -26,14 +26,12 @@
 
 @media screen and (max-width: 767px) {
   .nav {
-    width: 130%;
+    width: 100% !important;
     text-align: center;
     background: #003049;
     color: #f1faee;
     margin: 20px auto;
     padding: 15px;
-    position: relative;
-    right: 40px;
   }
 
   .nav-item {
