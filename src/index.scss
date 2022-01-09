@@ -15,12 +15,13 @@ p {
   padding: 0;
 }
 
-@font-face {
-  font-family: Teko;
-  src: url("./Assets/Fonts/Teko-Regular.ttf");
-}
-
 body {
   background: #f1faee;
   font-family: Teko !important;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: Teko;
+  src: url("./Assets/Fonts/Teko-Regular.ttf");
 }
