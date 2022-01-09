@@ -9,6 +9,13 @@ const ContactButton = styled.button`
   &:hover {
     background: #e07a5f;
   }
+
+  @media (max-width: 991px) {
+    padding: 10px 62px;
+    font-size: 1.6rem;
+    margin: 20px auto 0;
+    display: block;
+  }
 `;
 
 export default ContactButton;

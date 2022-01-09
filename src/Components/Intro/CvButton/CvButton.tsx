@@ -5,8 +5,9 @@ const CvButton = styled.button`
   width: 200px;
   padding: 10px;
   background: #81b29a;
+  color: #000;
   border-radius: 12px;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin: 20px 0 0 90px;
   transition: 0.4s;
 
