@@ -3,7 +3,7 @@ import styles from "./Navbar.module.scss";
 const Navbar = () => {
   return (
     <nav>
-      <ul className={styles.nav}>
+      <ul className={`${styles.nav}`}>
         <li className={styles["nav-item"]}>Home</li>
 
         <li className={styles["nav-item"]}>About Me</li>
