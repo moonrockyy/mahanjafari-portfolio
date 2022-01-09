@@ -27,7 +27,7 @@ const Charts = () => {
         {state.map((st, index) => (
           <section
             key={index}
-            className={`col-3 d-flex justify-content-center ${styles.margin}`}
+            className={`col-12 col-sm-6 col-md-3 d-flex justify-content-center ${styles.margin}`}
           >
             <div style={{ width: 150, height: 150 }}>
               <CircularProgressbar

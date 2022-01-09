@@ -37,7 +37,7 @@ const Charts = () => {
         {state.map((st, index) => (
           <section
             key={index}
-            className="col-4 d-flex flex-column align-items-center"
+            className="col-12 col-md-4 mb-3 d-flex flex-column align-items-center"
           >
             <div
               className={`d-flex flex-column justify-content-center align-items-center ${styles.white}`}

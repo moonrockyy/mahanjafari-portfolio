@@ -3,7 +3,7 @@ import styles from "./AboutDesc.module.scss";
 const AboutDesc = () => {
   return (
     <>
-      <section className="col-6">
+      <section className="col col-md-6">
         <h4 className={styles.desc}>
           I am a software engineering student who is experienced in a field of
           frontend development and making modern web applications using latest

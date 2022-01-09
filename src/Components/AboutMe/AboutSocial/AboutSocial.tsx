@@ -8,7 +8,7 @@ import styles from "./AboutSocial.module.scss";
 const AboutSocial = () => {
   return (
     <>
-      <section className="col-6 d-flex flex-column align-items-center">
+      <section className="col-12 col-md-6 d-flex flex-column align-items-center">
         <div className="row">
           <div className="col-3">
             <a
