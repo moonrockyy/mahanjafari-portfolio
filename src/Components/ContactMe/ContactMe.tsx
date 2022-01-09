@@ -5,7 +5,7 @@ import ContactTitle from "./ContactTitle/ContactTitle";
 
 const ContactMe = () => {
   return (
-    <div className={`d-flex flex-column`}>
+    <div className={`d-flex flex-column`} id="contactme">
       <SectionTitle color="#003049">CONTACT ME</SectionTitle>
       <article className="row mt-2">
         <div className="container">

@@ -12,7 +12,16 @@
 }
 
 .nav-item:hover {
-  color: #e07a5f;
+  color: #e07a5f !important;
+}
+
+.decor {
+  text-decoration: none;
+  color: #003049 !important;
+}
+
+.decor:hover {
+  color: #e07a5f !important;
 }
 
 @media screen and (max-width: 767px) {

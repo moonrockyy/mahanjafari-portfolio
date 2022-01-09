@@ -1,10 +1,11 @@
 import Logo from "./Logo/Logo";
 import Navbar from "./Navbar/Navbar";
 import ContactButton from "./ContactButton/ContactButton";
+import styles from "./Header.module.scss";
 
 const Header = () => {
   return (
-    <header className="navbar mt-3">
+    <header className="navbar mt-3" id="home">
       <div className="container-fluid">
         <div className="col-12 col-md-2 d-flex justify-content-center">
           <Logo />
@@ -15,7 +16,11 @@ const Header = () => {
         </div>
 
         <div className="col-12 col-md-2 d-flex justify-content-center">
-          <ContactButton>Contact Me</ContactButton>
+          <ContactButton>
+            <a className={styles.decor} href="#contactme">
+              Contact Me
+            </a>
+          </ContactButton>
         </div>
       </div>
     </header>

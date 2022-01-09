@@ -8,7 +8,6 @@ const ContactButton = styled.button`
 
   &:hover {
     background: #e07a5f;
-    color: #f1faee;
   }
 `;
 
