@@ -7,7 +7,7 @@ const AboutMe = () => {
   return (
     <div className={`d-flex flex-column ${styles.about}`} id="aboutme">
       <SectionTitle color="#f1faee">ABOUT ME</SectionTitle>
-      <article className="row m-5">
+      <article className="row m-3 m-md-5">
         <AboutDesc />
         <AboutSocial />
       </article>
