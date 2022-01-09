@@ -36,11 +36,26 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .whole {
+    text-align: center;
+  }
+
   .hey {
     font-size: 4rem;
   }
 
   .title {
     font-size: 4rem;
+  }
+
+}
+
+@media only screen and (max-width: 380px) {
+  .hey {
+    font-size: 3rem;
+  }
+
+  .title {
+    font-size: 3rem;
   }
 }

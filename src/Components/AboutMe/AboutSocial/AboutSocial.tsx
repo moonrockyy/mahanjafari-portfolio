@@ -9,7 +9,7 @@ const AboutSocial = () => {
   return (
     <>
       <section
-        className={`${styles.socials} col-10 col-md-6 d-flex flex-column align-items-center`}
+        className={`${styles.socials} col-12 col-md-6 d-flex flex-column align-items-center`}
       >
         <div className="row">
           <div className="col-3">
