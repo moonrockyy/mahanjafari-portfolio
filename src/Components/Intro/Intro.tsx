@@ -1,9 +1,9 @@
 import IntroImage from "./IntroImage/IntroImage";
 import IntroDesc from "./IntroDesc/IntroDesc";
 import CvButton from "./CvButton/CvButton";
-import styles from "./Intro.module.scss";
+import styles from "./Intro.module.css";
 import ContactButton from "../Header/ContactButton/ContactButton";
-import stylesHeader from '../Header/Header.module.scss';
+import stylesHeader from '../Header/Header.module.css';
 
 const Intro = () => {
   return (

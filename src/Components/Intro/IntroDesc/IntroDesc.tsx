@@ -1,4 +1,4 @@
-import styles from "./IntroDesc.module.scss";
+import styles from "./IntroDesc.module.css";
 
 const IntroDesc = () => {
   return (

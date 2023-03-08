@@ -3,7 +3,7 @@ import linkedin from "../../../Assets/Images/linkedin.svg";
 import telegram from "../../../Assets/Images/telegram.svg";
 import instagram from "../../../Assets/Images/instagram.svg";
 import github from "../../../Assets/Images/github.svg";
-import styles from "./AboutSocial.module.scss";
+import styles from "./AboutSocial.module.css";
 
 const AboutSocial = () => {
   return (

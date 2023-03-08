@@ -1,7 +1,7 @@
 import telegram from "../../../Assets/Images/dtelegram.svg";
 import instagram from "../../../Assets/Images/dinstagram.svg";
 import linkedin from "../../../Assets/Images/dlinkedin.svg";
-import styles from "./ContactIcons.module.scss";
+import styles from "./ContactIcons.module.css";
 
 const ContactIcons = () => {
   return (

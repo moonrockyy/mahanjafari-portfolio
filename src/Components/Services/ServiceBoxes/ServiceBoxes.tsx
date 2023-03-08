@@ -2,7 +2,7 @@ import { useState } from "react";
 import uidesign from "../../../Assets/Images/uidesign.svg";
 import webdesign from "../../../Assets/Images/webdesign.svg";
 import wordpress from "../../../Assets/Images/wordpress.svg";
-import styles from "./ServiceBoxes.module.scss";
+import styles from "./ServiceBoxes.module.css";
 
 interface Types {
   state: {

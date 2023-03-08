@@ -1,4 +1,4 @@
-import styles from "./ContactTitle.module.scss";
+import styles from "./ContactTitle.module.css";
 
 const ContactTitle = () => {
   return <p className={styles.title}>Glad to have connection with you</p>;

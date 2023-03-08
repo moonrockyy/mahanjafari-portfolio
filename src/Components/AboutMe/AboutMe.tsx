@@ -1,7 +1,7 @@
 import SectionTitle from "./../SectionTitle/SectionTitle";
 import AboutDesc from "./AboutDesc/AboutDesc";
 import AboutSocial from "./AboutSocial/AboutSocial";
-import styles from "./AboutMe.module.scss";
+import styles from "./AboutMe.module.css";
 
 const AboutMe = () => {
   return (

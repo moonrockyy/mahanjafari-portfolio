@@ -1,6 +1,6 @@
 import call from "../../../Assets/Images/call.svg";
 import sms from "../../../Assets/Images/sms.svg";
-import styles from "./ContactAddresses.module.scss";
+import styles from "./ContactAddresses.module.css";
 
 const ContactAddresses = () => {
   return (

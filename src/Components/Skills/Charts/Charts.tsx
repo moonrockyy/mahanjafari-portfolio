@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
-import styles from "./Charts.module.scss";
+import styles from "./Charts.module.css";
 
 interface Types {
   state: {

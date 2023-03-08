@@ -1,6 +1,6 @@
 import SectionTitle from "../SectionTitle/SectionTitle";
 import ServiceBoxes from "./ServiceBoxes/ServiceBoxes";
-import styles from "./Services.module.scss";
+import styles from "./Services.module.css";
 
 const Services = () => {
   return (

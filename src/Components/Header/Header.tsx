@@ -1,7 +1,7 @@
 import Logo from "./Logo/Logo";
 import Navbar from "./Navbar/Navbar";
 import ContactButton from "./ContactButton/ContactButton";
-import styles from "./Header.module.scss";
+import styles from "./Header.module.css";
 
 const Header = () => {
   return (

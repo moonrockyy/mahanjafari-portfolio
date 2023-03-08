@@ -1,4 +1,4 @@
-import styles from "./AboutDesc.module.scss";
+import styles from "./AboutDesc.module.css";
 
 const AboutDesc = () => {
   return (
